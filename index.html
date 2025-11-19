@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru" class="theme-light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор цитат и шуток</title>
+    <link rel="icon" type="image/svg+xml" href="images/Favicon.svg" />
+    <script src="scipts/themeChanger.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js"></script>
+    <script type="module" src="scipts/base.js"></script>
+    <script type="module" src="scipts/main.js"></script>
+    <link rel="stylesheet" href="fonts/fonts.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/dark.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body class="page">
+    <header class="header">
+        <span class="header__theme-icon">
+            <button class="header__theme-icon-button">
+                <img src="images/Light_theme_icon.svg" alt="Иконка светлой темы" class="header__theme-icon-img">
+            </button>
+            <span class="header__theme-icon-text">Поменять тему на тёмную</span>
+        </span>
+    </header>
+    <main class="main">
+        <h1 class="main__title title">Генератор цитат и шуток</h1>
+        <ul class="main__choice-list">
+            <li class="ul__choice-list"><button class="ul__choice-button regular-button choice-button_select-all">Все</button></li>
+            <li class="ul__choice-list"><button class="ul__choice-button regular-button choice-button_select-quotes">Цитаты</button></li>
+            <li class="ul__choice-list"><button class="ul__choice-button regular-button choice-button_select-jokes">Шутки</button></li>
+        </ul>
+        <span class="main__field show"><p class="main__field-text fade show">Колобок повесился</p></span>
+        <button class="generate-button active-button">Сгенерировать</button>
+        <span class="main__notice">Нажмите на кнопку, чтобы получить цитату или шутку!</span>
+    </main>
+    <footer class="footer">
+        <span class="copyright footer__text">@2025 Весёлые шутки</span>
+    </footer>
+</body>
+</html>

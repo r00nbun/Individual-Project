@@ -1,0 +1,11 @@
+:root.theme-dark {
+    --bg-color: #1A1A1A;
+    --active-button: #B787F8;
+    --non-active-button: #635579;
+    --text-block: #3D3648;
+    --text-color: #fff;
+    --title-out-back: #E2E3E7;
+    --hover-active-button: #8755CA;
+    --hover-regular-button: #463660;
+    --block-shadow: rgba(137, 137, 137, 0.25);
+}
